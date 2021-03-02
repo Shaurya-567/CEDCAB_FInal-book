@@ -1,0 +1,438 @@
+body{
+  margin:0px ;
+  padding: 0px ;
+  font-family: 'Libre Baskerville', serif;
+}
+.color_a a:hover{
+  color: rgb(247, 219, 10);
+}
+a:hover{
+  color: rgb(247, 219, 10);
+  border: none;
+  text-decoration: none;
+}
+#maindiv{
+  margin-left: 20%;
+  
+}
+#maindiv a{
+  margin: 0px 10px ;
+}
+#mincls,#mincls2{
+  width: 100%;
+  background-color: rgb(20, 80, 50);
+  padding-left: 5%;
+  
+}
+#mincls a:hover{
+  color: rgb(247, 219, 10);
+}
+#mincls2 a:hover{
+  color: rgb(247, 219, 10);
+}
+
+#mincls2 a{
+  -webkit-margin-start:inherit;
+  margin-left:28px ;
+  color: white;
+font-size: 22px;
+font-weight: 550;
+font-family: 'Libre Baskerville', serif;
+}
+#mincls a{
+margin-left:50px ;
+color: white;
+font-size: 22px;
+font-weight: 550;
+font-family: 'Libre Baskerville', serif;
+
+}
+#bg_img{
+  text-align: center;
+  width: 100%;
+  height: 700px ;
+  background: url("https://images.pexels.com/photos/2399254/pexels-photo-2399254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding:5% 10%;
+}
+#bg_img h1{
+color: rgb(247, 219, 10);
+font-weight: 600;
+font-size: 45px;
+}
+#bg_img p{
+  color: rgb(235, 235, 235);
+  font-size: 25px;
+}
+#spanId{
+  color: rgb(7, 140, 170);
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Libre Baskerville', serif;
+}
+#white_div{
+ margin-top: 5%;;
+  width: 45%;
+  height: 450px ;
+  background-color: white;
+  padding: 20px 30px ;
+  text-align: center;
+}
+#white_div h3,h5{
+  margin-top: 10px ;
+  font-family: 'Libre Baskerville', serif;
+}
+#starId{
+  color: red;
+}
+.btn_color{
+  background-color: rgb(247, 219, 10);
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  border: none;
+}
+.lbl_cls{
+  font-family: 'Libre Baskerville', serif;
+}
+#btnpadding{
+  margin-top: 20px ;
+}
+.slt_cls{
+  background: none;
+}
+.foot_cls{
+  width: 100%;
+  background-color:rgb(7, 140, 170) ;
+  display: flex;
+  align-content: space-around;
+  font-family: 'Libre Baskerville', serif;
+  padding: 1% 0%;
+  padding-left: 10%;
+}
+.foot_cls h3{
+   color: white;
+   font-family: 'Libre Baskerville', serif;
+   /* margin-left: 15%; */
+}
+.foot_link
+{
+  color: white;
+  text-decoration: none;
+  
+}
+#fot_h{
+  /* padding-left: 15%; */
+  display: flex;
+  width: 100%;
+}
+#fot_h h3{
+  margin-left:30%;
+  margin-right: 6%;
+}
+.foot_link {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 6%;
+}
+.danger_msg{
+  color: red;
+}
+
+.modal_head{
+  font-size: 25px ;
+  font-weight: 600;
+  background-color:rgb(20, 80, 50) ;
+}
+.modal_h5{
+  color: white;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+}
+.modal_btnfoot{
+  background-color:rgb(7, 140, 170) ;
+}
+.modal_fare{
+  font-size: 17px ;
+  font-weight: 550;
+}
+#sign_div{
+  display: block;
+  width: 60%;
+  height: auto;
+  box-shadow: 2px 2px 7px 2px grey ;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 320px ;
+  padding:60px 20px  ;
+ 
+  
+}
+#SING_REG{
+  margin-bottom: 20px ;
+  padding: 10px 0px ;
+  background-color: rgb(247, 219, 10);
+  
+}
+/* #SING_REG{
+  display: block;
+  margin :20px 20px ;
+} */
+#SING_REG h1{
+  font-size: 35px ;
+  font-weight: 600;
+  font-family: 'Libre Baskerville', serif;
+
+}
+#form_signup label{
+  margin: 12px 0px ;
+  font-size: 20px ;
+  font-weight: 500;
+  font-family: 'Libre Baskerville', serif;
+}
+#err_msg{
+  color: red;
+  font-weight: 500;
+  font-family: 'Libre Baskerville', serif;
+}
+#div_login{
+  display :block;
+  width: 60%;
+  text-align: center;
+  box-shadow: 2px 2px 7px 2px grey ;
+  justify-content: center;
+  margin: 50px 320px ;
+  margin-bottom: 75px ;
+  padding:30px 20px  ;
+}
+#form_login label{
+  margin: 15px 0px ;
+  font-size: 20px ;
+  font-weight: 500;
+  font-family: 'Libre Baskerville', serif;
+}
+.login_head{
+  margin-bottom: 20px ;
+  padding: 10px 0px ;
+  background-color: rgb(247, 219, 10);
+}
+#btn_login,#btn_signup{
+  background-color: rgb(247, 219, 10);
+  font-family: 'Libre Baskerville', serif;
+  border: none;
+  font-size: 20px;
+  padding: 10px 17px ;
+  font-weight: 500;
+  color: black;
+  margin: 25px 0px ;
+}
+#btn_otp{
+  display: none;
+  background-color: rgb(247, 219, 10);
+  font-family: 'Libre Baskerville', serif;
+  border: none;
+  font-size: 20px;
+  padding: 10px 17px ;
+  font-weight: 500;
+  color: black;
+}
+.carousel-item{
+  height: 32rem;
+  color: white;
+  position: relative;
+
+}
+.carousel-item img{
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  background-attachment: unset;
+  z-index: -100;
+  background-color:black;
+  opacity: 0.7;
+
+}
+.container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 50px;
+  right: 0;
+}
+#about_main,#about_main2{
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 50px 0px ;
+  padding-left: 60px ;
+}
+.abt_head{
+  width: 45%;
+  display: block;
+  margin: 30px 100px ;
+
+}
+.abt_card{
+  width: 65%;
+  padding: 10px 10px ;
+  box-shadow: 7px 2px 7px 7px grey ;
+  margin: 20px 70px ;
+}
+.card:hover{
+z-index: 100;
+width: 70%;
+padding: 0px 0px ;
+box-shadow: 7px 7px 12px 7px rgb(56, 56, 56) ;
+
+}
+#danger_signup{
+  color: red;
+  font-family: 'Libre Baskerville', serif;
+}
+#otp{
+  display: none;
+}
+.main_card{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.card_mar{
+  margin: 50px 45px ;
+  background-color:rgb(20, 80, 50) ;
+  color: white;
+}
+.user_margn{
+  margin-left: 100px ;
+}
+table,th,tr{
+  border: 1px solid grey;
+  border-collapse: collapse;
+
+}
+.admin_mrg{
+  margin-left: 150px ;
+}
+#admin_fot_h,#user_fot_h{
+  width: 100%;
+  margin-left: 20% ;
+  display: flex;
+}
+#admin_fot_h a,#user_fot_h a{
+  margin-left: 70px ;
+}
+
+#spanCid{
+  color:rgb(247, 219, 10) ;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Libre Baskerville', serif;
+}
+table,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px 9px ;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+thead td{
+  font-size:27px;
+  font-weight:600;
+  font-family: 'Libre Baskerville', serif;
+}
+#tbl_id{
+display: block;
+max-width: 100%;
+margin: 40px 0px ;
+margin-left: 70px;
+text-align: left;
+}
+#user_img{
+  
+  width:50px ;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+
+}
+#user_img img{
+  border-radius: 50% 50%;
+  width:50px ;
+  height: 50px;
+}
+#sort_btn{
+display: block;
+float:right;
+margin: 15px 20px ;
+}
+.btn_cancelride{
+  margin: 0px 7px ;
+}
+#tbl{
+width: 95%;
+}
+#modalbody{
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+}
+.btn_thead{
+  font-family: 'Libre Baskerville', serif;
+  border: none;
+  font-size: 20px;
+  padding: 10px 17px ;
+  font-weight: 500;
+  color: black;
+}
+#header_ullinks a{
+  color: black;
+}
+/* #header_ullinks a:hover{
+z-index: inherit;
+overflow: hidden;
+max-width: 100%;
+} */
+.drop_item{
+  width: 82%;
+ 
+}
+#span_user{
+  color:rgb(247, 219, 10) ;
+}
+#specialnotesadmin{
+  color: red;
+  display: block;
+
+}
+#spannotes{
+
+  display: flex;
+  margin: 25px 0px ;
+}
+#allsortdiv{
+  display: flex;
+
+}
+#radio_div{
+  display: flex;
+  text-align: center;
+}
+#checklabel{
+  display: flex;
+  margin: 10px 130px ;
+}
+#checklabel label{
+  margin: 0px 0px ;
+
+}
+.btnclssort{
+  margin: 10px 15px ;
+}
+#table_detail{
+  margin-right: 105px ;
+}
